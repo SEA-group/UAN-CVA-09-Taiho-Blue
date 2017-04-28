@@ -1,0 +1,13 @@
+<JPT003_Avia_Torpedo_Type91.model>
+	<castsShadow>	false	</castsShadow>
+	<extent>	2.0000	</extent>
+	<parent>	PnFMods/SEA_UAN_Taiho/JSA015_Taiho_1944/projectile/JPT003_Avia_Torpedo_Type91_lod1	</parent>
+	<materialNames />
+	<visibilityBox>
+		<min>	-0.014738 -0.015590 -0.166893	</min>
+		<max>	0.016740 0.015888 0.166893	</max>
+	</visibilityBox>
+	<exporter>	1.6	</exporter>
+	<nodefullVisual>	PnFMods/SEA_UAN_Taiho/JSA015_Taiho_1944/projectile/JPT003_Avia_Torpedo_Type91	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</JPT003_Avia_Torpedo_Type91.model>

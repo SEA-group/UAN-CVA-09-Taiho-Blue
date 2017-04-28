@@ -1,0 +1,47 @@
+<JPT003_Avia_Torpedo_Type91_lod2.visual>
+	<boundingBox>
+		<min>	-0.011966 -0.010426 0.012815	</min>
+		<max>	0.011966 0.012659 0.326804	</max>
+	</boundingBox>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Mk91	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000 1.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_Trace	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000 0.000000	</row2>
+					<row3>	0.000000 0.000000 0.015374 1.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Mk91	</node>
+		<geometry>
+			<vertices>	Mk91_lodShape2.vertices	</vertices>
+			<primitive>	Mk91_lodShape2.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	SHIPMAT_NODAMAGE_PBS_Projectile	</identifier>
+					<mfm>	PnFMods/SEA_UAN_Taiho/JSA015_Taiho_1944/projectile/JPT003_Avia_Torpedo_Type91.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+</JPT003_Avia_Torpedo_Type91_lod2.visual>
